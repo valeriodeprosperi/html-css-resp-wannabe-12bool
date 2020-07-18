@@ -1,0 +1,64 @@
+/* Typo */
+h2 {
+  font-size: 32px;
+}
+
+/* Mix */
+
+.m-top-120 {
+  margin-top: 120px;
+}
+.text-center {
+  text-align: center;
+}
+.bg-grey {
+  background-color: #f9f9f9;
+}
+
+/* Sections */
+.section_title {
+  margin-bottom: 20px;
+}
+
+/* Colonne */
+.col_img {
+  height: 200px;
+}
+.col_title {
+  margin: 15px 0;
+}
+.circle_img {
+  background-color: #428bca;
+  border-radius: 50%;
+  padding: 20px;
+}
+
+#perche .col-lg-12 {
+  margin-top: 50px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #000;
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  .col_img {
+    height: 150px;
+  }
+
+  .m-top-md-20 {
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  h2 {
+    color: #428bca;
+  }
+
+  .col_img {
+    height: 120px;
+  }
+
+  .m-top-xs-20 {
+    margin-top: 20px;
+  }
+}
